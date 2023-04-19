@@ -1,0 +1,22 @@
+{
+  "name": "lightning-touch-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "dev": "vite --force",
+    "build": "vite build",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@lightningjs/automotive": "github:wouterlucas/Lightning-Automotive",
+    "@lightningjs/core": "^2.9.0",
+    "@lightningjs/sdk": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.4"
+  }
+}
