@@ -36,8 +36,8 @@ export class Splash extends Lightning.Component<SplashTemplateSpec, PageType> {
             duration: 1.5, repeat: 0, stopMethod: 'immediate',
             actions: [
                 {p: 'Logo.scale' as '$$number', v: {0: 0.3, 1: 0.15}},
-                {p: 'Logo.x' as '$$number',     v: {0: 400, 1: 95}},
-                {p: 'Logo.y' as '$$number',     v: {0: 240, 1: 30}},
+                {p: 'Logo.x' as '$$number',     v: {0: 400, 1: 35}},
+                {p: 'Logo.y' as '$$number',     v: {0: 240, 1: 35}},
             ]
         });
 

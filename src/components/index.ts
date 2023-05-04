@@ -3,3 +3,4 @@ export { Header } from './Header';
 export { Loader } from './Loader';
 export { Button } from './Button';
 export { Logo } from './Logo';
+export { MainLogo } from './MainLogo';

@@ -9,6 +9,7 @@ export class Button extends Lightning.Component<Lightning.Component.TemplateSpec
             h: 50, w: 200, rect: true,
             color: 0xFF0d6efd,
             Label: {
+                // @ts-ignore
                 mount: 0.5, x: w => w / 2, y: 25, text: {fontSize: 25}
             },
             shader: {type: Lightning.shaders.RoundedRectangle, radius: 10}
